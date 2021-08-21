@@ -17,11 +17,11 @@ function App() {
       </button>
       <input
         type="checkbox"
-        id="enable-button-checkbox"
+        id="disable-button-checkbox"
         defaultChecked={disabled}
         aria-checked={disabled}
-        onChange={(e) => setDisabled(e.target.checked)}
-      />
+        onChange={(e) => setDisabled(e.target.checked)} />
+      <label htmlFor="disable-button-checkbox">Disable button</label>
     </div>
   );
 }
